@@ -1,0 +1,35 @@
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 a {
+    color: greenyellow;
+    text-decoration: none;
+}
+
+
+header nav ul {
+    list-style: none outside;
+    display: flex;
+    gap: 0 2em;
+    padding-top: 0.5em;
+}
+
+header nav ul li span:hover {
+    background-color: #769275;
+    padding: 1em;
+    border-radius: 0.4em;
+    opacity: 0.9;
+}
+
+header nav ul li a{ 
+    text-decoration: none;
+    color: greenyellow;
+    font-size: 1.5em;
+}
+
+.section.site-header {
+    background-color: black;
+    padding: 2em max(calc((100vw - 1600px)/ 2), 2em);
+}

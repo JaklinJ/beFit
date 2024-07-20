@@ -1,62 +1,32 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+
+
+
+
+
+
+.site-banner {
+    background-image: url('./young-fitness-man-studio_7502-5008.avif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 550px;
 }
 
-html {
-    font: 14px/1.5 Lato, sans-serif;
+.site-banner h1,
+.site-banner p {
+    color: white;
+    text-align: center;
+    font-size: 2.5em;
+    margin-right: 10em;
 }
 
-body, button, input, table, select, option {
-    font: inherit;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-}
-
-header h1 a {
-    color: greenyellow;
-    text-decoration: none;
-}
-
-
-header nav ul {
-    list-style: none outside;
-    display: flex;
-    gap: 0 2em;
-    padding-top: 0.5em;
-}
-
-header nav ul li span:hover {
-    background-color: gray;
-    padding: 1em;
-    border-radius: 0.4em;
-    opacity: 0.7;
-}
-
-header nav ul li a{ 
-    text-decoration: none;
-    color: greenyellow;
-    font-size: 1.3em;
-}
-
-footer {
-    color: greenyellow;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.site-banner h1 {
+    padding-top: 150px;
 }
 
 .section {
     padding: 2em max(calc((100vw - 1400px) /2), 2em);
 }
 
-.section.site-header,
-.section.site-footer {
-    background-color: black;
-    padding: 2em max(calc((100vw - 1600px)/ 2), 2em);
-}
+
 

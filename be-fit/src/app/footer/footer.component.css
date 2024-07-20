@@ -1,0 +1,12 @@
+footer {
+    color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.section.site-footer {
+    background-color: black;
+    padding: 2em max(calc((100vw - 1600px)/ 2), 2em);
+}
